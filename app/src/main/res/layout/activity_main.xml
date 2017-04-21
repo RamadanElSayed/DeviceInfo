@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#20626C"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:background="#20626C"
+android:layout_height="wrap_content"
+tools:context="com.example.ramadan.deviceinfo.MainActivity"
+android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:weightSum="2"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal">
+    <Button
+        android:text="Device Name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button1" />
+
+    <Button
+        android:text="Model Number"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button2" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:weightSum="2"
+    android:orientation="horizontal">
+    <Button
+        android:text="Version"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button3" />
+
+    <Button
+        android:text="Device ID"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button4" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:weightSum="2"
+
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal">
+    <Button
+        android:text="RAM"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button5" />
+
+    <Button
+        android:text="Internal Memory"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button6" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:weightSum="2"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal">
+    <Button
+        android:text="Build Number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button7" />
+
+    <Button
+        android:text="SIM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button8" />
+
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:weightSum="2"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal">
+    <Button
+        android:text="Battery Status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button9" />
+
+    <Button
+        android:text="Battery Level"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button10" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:weightSum="2"
+    android:orientation="horizontal">
+    <Button
+        android:text="IMEI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button11" />
+
+    <Button
+        android:text="Serial Number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button12" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:weightSum="2"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal">
+    <Button
+        android:text="Date or Time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button13" />
+
+    <Button
+        android:text="Lat or Lon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button14" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:weightSum="2"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal">
+    <Button
+        android:text="Address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button15" />
+
+    <Button
+        android:text="Email ID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button16" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:weightSum="2"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal">
+    <Button
+        android:text="User Name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button17" />
+
+    <Button
+        android:text="Mobile Number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="#20626C"
+        android:textSize="18sp"
+        android:id="@+id/button18" />
+
+
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>
